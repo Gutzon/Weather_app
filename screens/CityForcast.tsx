@@ -22,7 +22,7 @@ export default class App extends React.Component {
                 },
                 {
                     "temp": {
-                        "day": 1,
+                        "day": 3,
                     }
                 },
                 {

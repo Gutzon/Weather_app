@@ -11,16 +11,16 @@ export default function Forside() {
         <View style={styles.day1}>
           <Text>Test</Text>
         </View>
-        <View style={styles.day2}>
+        <View style={styles.day1}>
         <Text>Test</Text>
         </View>
-        <View style={styles.day3}>
+        <View style={styles.day1}>
         <Text>Test</Text>
         </View>
-        <View style={styles.day4}>
+        <View style={styles.day1}>
         <Text>Test</Text>
         </View>
-        <View style={styles.day5}>
+        <View style={styles.day1}>
         <Text>Test</Text>
          <Text>Test</Text>
         </View>
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '20%',
     left: '0%',
-    yop: 0,
+    top: 0,
   },
   test2: {
     position: 'absolute',
@@ -49,12 +49,15 @@ const styles = StyleSheet.create({
   fivedays: {
     width: '100%',
     height: 'auto',
-    borderColor: "black",
-    borderWidth: 2,
     flexDirection: 'row',
   },
   day1: {
-
+    width: "20%",
+    borderColor: "black",
+    borderLeftWidth: 1,
+    borderRightWidth: 1,
+    borderTopWidth: 2,
+    borderBottomWidth: 2,
   },
   day2: {
 
